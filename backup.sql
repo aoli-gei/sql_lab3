@@ -8,7 +8,7 @@ BACKUP DATABASE [SCHOOL]
 
 -- 差异备份
 BACKUP DATABASE [SCHOOL]
-	TO [S-T_backup] WITH DIFFERENTIAL
+	TO [School_backup] WITH DIFFERENTIAL
 
 -- 日志备份
 BACKUP LOG [SCHOOL] TO disk='C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Backup\School\st_log.dat'
